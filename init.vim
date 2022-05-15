@@ -483,7 +483,7 @@ let g:move_key_modifier = 'C'
 
 
 " ==================== any-jump ====================
-nnoremap j :AnyJump<CR>
+nnoremap aj :AnyJump<CR>
 let g:any_jump_window_width_ratio  = 0.8
 let g:any_jump_window_height_ratio = 0.9
 
