@@ -167,5 +167,7 @@ Plug 'kyazdani42/nvim-web-devicons'
 Plug 'lambdalisue/suda.vim' " do stuff like :sudowrite
 " Plug 'makerj/vim-pdf'
 
+"autho format
+Plug 'Chiel92/vim-autoformat'
 call plug#end()
 set re=0
