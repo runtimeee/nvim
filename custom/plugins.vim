@@ -171,7 +171,7 @@ Plug 'lambdalisue/suda.vim' " do stuff like :sudowrite
 Plug 'Chiel92/vim-autoformat'
 
 "toggleterm 
-Plug 'akinsho/toggleterm.nvim', tag = 'v1.*'
+Plug 'akinsho/toggleterm.nvim', { 'tag': 'v1.*' }
 
 call plug#end()
 set re=0
