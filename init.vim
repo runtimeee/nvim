@@ -751,4 +751,8 @@ if has_machine_specific_file == 0
 	exec "e ~/.config/nvim/_machine_specific.vim"
 endif
 
+lua <<EOF
+require "conf.toggleterm"
+EOF
+
 
