@@ -29,7 +29,7 @@ lua <<EOF
 
 require "conf.toggleterm"
 require "conf.fzf-lua"
-require "conf.nvim-scrollar"
+require "conf.nvim-scrollbar"
 require "conf.nvim-treesitter"
 
 EOF
