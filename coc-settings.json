@@ -65,7 +65,10 @@
   "importCost.javascriptExtensions": ["\\.jsx?$"],
   "importCost.showCalculatingDecoration": true,
   "importCost.debug": false,
-  "snippets.ultisnips.directories": ["$HOME/.config/nvim/snippets/"],
+  "snippets.ultisnips.directories": [
+    "$HOME/.config/nvim/snippets/",
+    "$HOME/.config/nvim/plugged/vim-snippets/UltiSnips"
+  ],
   "coc.preferences.formatOnSaveFiletypes": [
     "javascript",
     "typescript",

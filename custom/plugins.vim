@@ -34,7 +34,7 @@ Plug 'wellle/tmux-complete.vim'
 
 " Snippets
 " Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
+Plug 'runtimeee/vim-snippets'
 
 " Undo Tree
 Plug 'mbbill/undotree'
