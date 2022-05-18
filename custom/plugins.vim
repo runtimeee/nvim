@@ -179,6 +179,8 @@ Plug 'roxma/vim-hug-neovim-rpc'
 
 Plug 'vim-test/vim-test'
 Plug 'rcarriga/vim-ultest', { 'do': ':UpdateRemotePlugins' }
+"sniprun
+Plug 'michaelb/sniprun', {'do': 'bash install.sh'}
 
 call plug#end()
 set re=0
