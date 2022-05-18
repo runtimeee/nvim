@@ -3,3 +3,4 @@ plugged
 tmp
 autoload
 ./_*.vim
+custom/_machine_specific.vim

@@ -27,10 +27,7 @@ exec "nohlsearch"
 
 lua <<EOF
 
-require "conf.toggleterm"
-require "conf.fzf-lua"
-require "conf.nvim-scrollbar"
-require "conf.nvim-treesitter"
+require "user.conf"
 
 EOF
 
