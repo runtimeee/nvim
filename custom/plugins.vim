@@ -173,5 +173,12 @@ Plug 'Chiel92/vim-autoformat'
 "toggleterm 
 Plug 'akinsho/toggleterm.nvim', { 'tag': 'v1.*' }
 
+"unitest
+Plug 'roxma/nvim-yarp'
+Plug 'roxma/vim-hug-neovim-rpc'
+
+Plug 'vim-test/vim-test'
+Plug 'rcarriga/vim-ultest', { 'do': ':UpdateRemotePlugins' }
+
 call plug#end()
 set re=0
