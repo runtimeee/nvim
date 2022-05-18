@@ -58,3 +58,7 @@ if executable(s:clip)
         autocmd TextYankPost * if v:event.operator ==# 'y' | call system(s:clip, @0) | endif
     augroup END
 endif
+
+" insert new line when in INSERTMODE
+inoremap <buffer> <c-k> <esc>O
+inoremap <buffer> <c-j> <esc>o
