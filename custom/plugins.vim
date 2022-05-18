@@ -182,5 +182,9 @@ Plug 'rcarriga/vim-ultest', { 'do': ':UpdateRemotePlugins' }
 "sniprun
 Plug 'michaelb/sniprun', {'do': 'bash install.sh'}
 
+"cmake 
+Plug 'nvim-lua/plenary.nvim'
+Plug 'ravenxrz/neovim-cmake'
+
 call plug#end()
 set re=0
