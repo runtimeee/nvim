@@ -27,6 +27,7 @@ exec "nohlsearch"
 
 lua <<EOF
 
+require "user.plugins"
 require "user.conf"
 
 EOF
